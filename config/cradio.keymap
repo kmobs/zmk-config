@@ -118,7 +118,7 @@
             &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     `    │    +     │    {     │   }      │     _     │  │   =      │    [     │    ]     │    -     │     ~    │
-            &kp GRAVE  &KP PLUS     &kp LBRC  &kp RBRC   &kp UNDER       &kp EQUAL &kp LBKTR  &kp RBKT   &kp MINUS  &kp TILDE
+            &kp GRAVE  &kp PLUS     &kp LBRC  &kp RBRC   &kp UNDER       &kp EQUAL &kp LBKTR  &kp RBKT   &kp MINUS  &kp TILDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
