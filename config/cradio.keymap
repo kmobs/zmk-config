@@ -11,8 +11,8 @@
 
 #define DEFAULT 0
 #define GAMING 1
-#define LEFT 2
-#define RIGHT 3
+#define LEFT_LAYER 2
+#define RIGHT_LAYER 3
 #define BOTH 4
 / {
     behaviors {
@@ -31,7 +31,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         both_layer {
-            if-layers = <LEFT RIGHT>;
+            if-layers = <LEFT_LAYER RIGHT_LAYER>;
             then-layer = <BOTH>;
         };
     };
