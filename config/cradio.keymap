@@ -31,7 +31,7 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         both_layer {
-            if-layers = <LEFT_LAYER RIGHT_LAYER>;
+            if-layers = <LEFT_LYR RIGHT_LYR>;
             then-layer = <BOTH>;
         };
     };
