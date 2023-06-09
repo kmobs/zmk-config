@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/VSWorkspaceState.json
+/.vs/zmk-config/FileContentIndex/read.lock
+/.vs/zmk-config/FileContentIndex/56ee7683-e67e-425a-8c1a-5989d68e9d8f.vsidx
+/.vs/zmk-config/v17/.wsuo
+/.vs
