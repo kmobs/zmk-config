@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &mt LSHIFT k1  &kp k2  &kp k3  &kp k4
-#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &mt RSHIFT k4
+#define HRML(k1,k2,k3,k4) &ht LSHIFT k1  &kp k2  &kp k3  &kp k4
+#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RSHIFT k4
 
 #define DEFAULT 0
 #define GAMING 1
@@ -67,7 +67,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-          &mt LCTRL Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &mt RCTRL FSLH
+          &ht LCTRL Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RCTRL FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -83,7 +83,7 @@
         //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
             &kp LSHIFT    &kp A      &kp S     &kp D     &kp F          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  ZCTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
+        //│  CTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
             &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V          &trans      &trans   &trans     &trans    &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp SPACE     &trans      &trans
