@@ -78,7 +78,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Esc     │  Q       │  W       │  E       │  R       │   │          │          │          │          │          │
-            &kp ESC      &kp Q      &kp W      &kp       &mt T R         &trans    &trans      &trans     &trans   &tog GAMING
+            &kp ESC      &kp Q      &kp W      &kp E    &mt T R         &trans    &trans      &trans     &trans   &tog GAMING
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
             &kp LSHIFT    &kp A      &kp S     &kp D     &kp F          &trans     &trans     &trans     &trans     &trans
@@ -111,14 +111,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│     ~    │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-            &kp TILDE     &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
+        //│     ~    │  {       │  U Arrow │  }       │          │   │  ^       │  (       │  )       │  ]       │  PG_UP   │
+            &kp TILDE  &kp LBRC   &kp UP   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
-            &kp GRAVE   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
+        //│     `    │  L Arrow │  D Arrow │  R Arrow │  %       │   │  *       │  -       │  =       │  \       │  PG_DN   │
+            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &trans     &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+        //│     `    │    +     │    {     │   }      │     _     │  │   =      │    [     │    ]     │    -     │     ~    │
+            &kp GRAVE  &KP PLUS     &kp LBRC  &kp RBRC   &kp UNDER       &kp EQUAL &kp LBKTR  &kp RBKT   &kp MINUS  &kp TILDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
