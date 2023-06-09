@@ -9,6 +9,11 @@
 #define HRML(k1,k2,k3,k4) &mt LSHIFT k1  &kp k2  &kp k3  &kp k4
 #define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &mt RSHIFT k4
 
+#define DEFAULT 0
+#define GAMING 1
+#define LEFT 2
+#define RIGHT 3
+#define BOTH 4
 / {
     behaviors {
         ht: hold_tap {
@@ -25,9 +30,9 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+        both_layer {
+            if-layers = <LEFT RIGHT>;
+            then-layer = <BOTH>;
         };
     };
 
@@ -37,6 +42,7 @@
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&kp ESC>;
+            layers = <DEFAULT>;
         };
         combo_del {
             timeout-ms = <50>;
@@ -63,9 +69,26 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
           &mt LCTRL Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &mt RCTRL FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 1 TAB   &kp SPACE     &kp SPACE  &lt 2 ENTER
+                                            &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
+        };
+
+        gaming_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+        //│  Esc     │  Q       │  W       │  E       │  R       │   │          │          │          │          │          │
+            &kp ESC      &kp Q      &kp W      &kp       &mt T R         &trans    &trans      &trans     &trans   &tog GAMING
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
+            &kp LSHIFT    &kp A      &kp S     &kp D     &kp F          &trans     &trans     &trans     &trans     &trans
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+        //│  ZCTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
+            &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V          &trans      &trans   &trans     &trans    &trans
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+                                            &lt 2 TAB   &kp SPACE     &trans      &trans
+        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;  
         };
 
         left_layer {
@@ -102,11 +125,11 @@
             >;
         };
 
-        tri_layer {
+        both_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
+           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &tog GAMING   &trans     &trans     &trans    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
