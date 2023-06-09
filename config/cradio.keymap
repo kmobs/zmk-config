@@ -78,13 +78,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Esc     │  Q       │  W       │  E       │  R       │   │          │          │          │          │          │
-            &kp ESC      &kp Q      &kp W      &kp E    &mt T R         &trans    &trans      &trans     &trans   &tog GAMING
+            &kp ESC      &kp Q      &kp W      &kp E    &ht T R         &trans    &trans      &trans     &trans   &tog GAMING
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
             &kp LSHIFT    &kp A      &kp S     &kp D     &kp F          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  CTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
-            &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V          &trans      &trans   &trans     &trans    &trans
+            &kp LCTRL  &kp Z      &kp X      &kp C      &ht B V          &trans      &trans   &trans     &trans    &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp SPACE     &trans      &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
