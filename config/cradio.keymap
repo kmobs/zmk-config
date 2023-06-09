@@ -11,8 +11,8 @@
 
 #define DEFAULT 0
 #define GAMING 1
-#define LEFT_LAYER 2
-#define RIGHT_LAYER 3
+#define LEFT_LYR 2
+#define RIGHT_LYR 3
 #define BOTH 4
 / {
     behaviors {
@@ -115,10 +115,10 @@
             &kp TILDE  &kp LBRC   &kp UP   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     `    │  L Arrow │  D Arrow │  R Arrow │  %       │   │  *       │  -       │  =       │  \       │  PG_DN   │
-            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp PG_DN
+            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT  &kp PRCNT   &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │    +     │    {     │   }      │     _     │  │   =      │    [     │    ]     │    -     │     ~    │
-            &kp GRAVE  &kp PLUS     &kp LBRC  &kp RBRC   &kp UNDER       &kp EQUAL &kp LBKTR  &kp RBKT   &kp MINUS  &kp TILDE
+        //│     `    │    +     │    {     │   }      │     _    │   │   =      │    [     │    ]     │    -     │     ~    │
+            &kp GRAVE  &kp PLUS     &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBKT  &kp RBKT   &kp MINUS  &kp TILDE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -129,7 +129,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &tog GAMING   &trans     &trans     &trans    &sys_reset
+           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &tog GAMING   &trans     &trans     &trans   &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
