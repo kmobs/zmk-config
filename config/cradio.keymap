@@ -121,8 +121,8 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│     ~    │  {       │  U Arrow │  }       │     +     │   │  ^      │  (       │   )      │  :       │  PG_UP   │
-            &kp TILDE  &kp LBRC   &kp UP   &kp RBRC     &kp PLUS       &kp CARET  &kp LPAR   &kp RPAR  &kp COLON   &kp PG_UP
+        //│     ~    │  <       │  U Arrow │  >       │     +     │   │  ^      │  (       │   )      │  :       │  PG_UP   │
+            &kp TILDE  &kp LT      &kp UP   &kp GT      &kp PLUS       &kp CARET  &kp LPAR   &kp RPAR  &kp COLON   &kp PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     `    │  L Arrow │  D Arrow │  R Arrow │    -     │   │  *       │    [     │    ]     │  \       │  PG_DN   │
             &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp BSLH   &kp PG_DN
