@@ -54,6 +54,12 @@
             key-positions = <16 17>;
             bindings = <&kp BSPC>;
         };
+        combo_win {
+            timeout-ms = <50>;
+            key-positions = <23 24>;
+            bindings = <&kp LGUI>;
+        };
+
     };
     keymap {
         compatible = "zmk,keymap";
