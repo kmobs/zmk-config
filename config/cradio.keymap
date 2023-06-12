@@ -126,11 +126,11 @@
         //│     ~    │  <       │  U Arrow │  >       │     +     │   │  ^      │  (       │   )      │  :       │  PG_UP   │
             &kp TILDE  &kp LT      &kp UP   &kp GT      &kp PLUS       &kp CARET  &kp LPAR   &kp RPAR  &kp COLON  &ht HOME PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │  L Arrow │  D Arrow │  R Arrow │    -     │   │  *       │    [     │    ]     │  \       │  PG_DN   │
-            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp BSLH   &ht END PG_DN
+        //│     `    │  L Arrow │  D Arrow │  R Arrow │    -     │   │  *       │    [     │    ]     │    ;     │  PG_DN   │
+            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp SEMI   &ht END PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    -     │ PSCRN    │
-            &kp GRAVE  &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC   &kp MINUS    &kp PSCRN
+        //│     `    │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    \     │ PSCRN    │
+            &kp GRAVE  &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC     &kp BSLH   &kp PSCRN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -168,5 +168,6 @@
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
+        }
     };
 };
