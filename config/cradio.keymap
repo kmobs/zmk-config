@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &ht LSHIFT k1  &kp k2  &kp k3  &kp k4
+#define HRML(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &kp k4
 #define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RSHIFT k4
 
 #define DEFAULT 0
@@ -56,12 +56,12 @@
         };
         combo_lwin {
             timeout-ms = <30>;
-            key-positions = <22 23>;
+            key-positions = <23 24>;
             bindings = <&kp LGUI>;
         };
         combo_rwin {
             timeout-ms = <320>;
-            key-positions = <26 27>;
+            key-positions = <25 26>;
             bindings = <&kp RGUI>;
 	};
     };
@@ -77,7 +77,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-          &ht LCTRL Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RCTRL FSLH
+          &ht LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RCTRL FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
