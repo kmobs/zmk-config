@@ -22,7 +22,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <175>;
-            quick-tap-ms = <50>;
+            quick-tap-ms = <35>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -30,7 +30,7 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        both_layer {
+        both_layer {S
             if-layers = <LEFT_LYR RIGHT_LYR>;
             then-layer = <BOTH>;
         };
