@@ -84,13 +84,13 @@
                                             &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
-        };qs
+        };
 
         gaming_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  F       │  Q       │  W       │  E       │  R       │   │          │          │          │          │          │
-            &kp F       &kp Q      &kp W      &kp E    &kp R         &trans    &trans      &trans     &trans   &tog GAMING
+            &kp F       &kp Q      &kp W      &kp E    &kp R         &tog GAMING    &trans      &trans     &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Shift   │  A       │  S       │  D       │  G       │   │          │          │          │          │          │
             &kp LSHIFT    &kp A      &kp S     &kp D   &kp G          &trans     &trans     &trans     &trans     &trans
