@@ -7,7 +7,7 @@
 
 // Home row mods macro
 #define HRML(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &kp k4
-#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RSHIFT k4
+#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RALT k4
 
 #define DEFAULT 0
 #define GAMING 1
@@ -77,7 +77,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-          &ht LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RALT FSLH
+          &ht LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RSHIFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -122,13 +122,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│     ~    │  <       │  U Arrow │  >       │     +     │   │  ^      │  (       │   )      │  :       │  PG_UP   │
-            &kp TILDE  &kp LT      &kp UP   &kp GT      &kp PLUS       &kp CARET  &kp LPAR   &kp RPAR  &kp COLON   &kp PG_UP
+            &kp TILDE  &kp LT      &kp UP   &kp GT      &kp PLUS       &kp CARET  &kp LPAR   &kp RPAR  &kp COLON  &ht HOME PG_UP
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│     `    │  L Arrow │  D Arrow │  R Arrow │    -     │   │  *       │    [     │    ]     │  \       │  PG_DN   │
-            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp BSLH   &kp PG_DN
+            &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp BSLH   &ht END PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    -     │     ~    │
-            &kp GRAVE  &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC   &kp MINUS  &kp TILDE
+        //│     `    │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    -     │ PSCRN    │
+            &kp GRAVE  &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC   &kp MINUS    &kp PSCRN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
