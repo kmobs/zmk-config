@@ -95,10 +95,10 @@
         //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
             &kp LSHIFT    &kp A      &kp S     &kp D   &mt G F          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  CTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
-            &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V          &trans      &trans   &trans     &trans    &trans
+        //│  CTRL    │  Z        │  X       │  C       │  V      │   │          │          │          │          │
+            &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V        &kp TAB     &trans   &trans     &trans      &kp RALT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 5 N1   &kp SPACE     &trans      &trans
+                                            &mo  N1   &kp SPACE     &trans      &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;  
         };
