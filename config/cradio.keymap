@@ -98,7 +98,7 @@
         //│  CTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
             &kp LCTRL  &kp Z      &kp X      &kp C      &ht B V          &trans      &trans   &trans     &trans    &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 5S N1   &kp SPACE     &trans      &trans
+                                            &lt 5 N1   &kp SPACE     &trans      &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;  
         };
