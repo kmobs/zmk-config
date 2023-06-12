@@ -26,13 +26,13 @@
             tapping-term-ms = <175>;
             quick-tap-ms = <40>;
             global-quick-tap;
-            bindings = <&kp>, <&kp>;
+            bindings = <&kp>, <&kp>;q
         };
         st: shift_tap {
             label = "shift_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred;
             tapping-term-ms = <220>;
             quick-tap-ms = <30>;
             bindings = <&kp>, <&kp>;
