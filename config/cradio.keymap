@@ -29,7 +29,7 @@
             bindings = <&kp>, <&kp>;
         };
         st: hold_tap {
-            label = "hold_tap";
+            label = "shiftqq_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
