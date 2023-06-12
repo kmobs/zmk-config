@@ -21,7 +21,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <170>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <30>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
@@ -55,12 +55,12 @@
             bindings = <&kp BSPC>;
         };
         combo_lwin {
-            timeout-ms = <40>;
+            timeout-ms = <30>;
             key-positions = <22 23>;
             bindings = <&kp LGUI>;
         };
         combo_rwin {
-            timeout-ms = <40>;
+            timeout-ms = <320>;
             key-positions = <26 27>;
             bindings = <&kp RGUI>;
 	};
@@ -91,7 +91,7 @@
             &kp ESC      &kp Q      &kp W      &kp E    &ht T R         &trans    &trans      &trans     &trans   &tog GAMING
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Shift   │  A       │  S       │  D       │  F       │   │          │          │          │          │          │
-            &kp LSHIFT    &kp A      &kp S     &kp D     &kp F          &trans     &trans     &trans     &trans     &trans
+            &kp LSHIFT    &kp A      &kp S     &kp D   &ht G F          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  CTRL   │  Z        │  X       │  C       │  V      │   │          │          │          │          │
             &kp LCTRL  &kp Z      &kp X      &kp C      &ht B V          &trans      &trans   &trans     &trans    &trans
