@@ -26,7 +26,7 @@
             tapping-term-ms = <175>;
             quick-tap-ms = <40>;
             global-quick-tap;
-            bindings = <&kp>, <&kp>;q
+            bindings = <&kp>, <&kp>;
         };
         st: shift_tap {
             label = "shift_tap";
