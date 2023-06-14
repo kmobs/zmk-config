@@ -34,8 +34,6 @@
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <170>;
-//            quick-tap-ms = <100>;
-//            global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -139,8 +137,8 @@
         //│     `    │  L Arrow │  D Arrow │  R Arrow │    -     │   │  *       │    [     │    ]     │    ;     │  PG_DN   │
             &kp GRAVE   &kp LEFT    &kp DOWN   &kp RIGHT &kp MINUS    &kp ASTRK  &kp LBKT   &kp RBKT   &kp SEMI   &ht END PG_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│     `    │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    \     │ PSCRN    │
-            &kp GRAVE  &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC     &kp BSLH   &kp PSCRN
+        //│    |     │    =     │    {     │   }      │     _    │   │   =      │    {     │    }     │    \     │ PSCRN    │
+            &kp PIPE   &kp EQUAL   &kp LBRC  &kp RBRC   &kp UNDER     &kp EQUAL &kp LBRC  &kp RBRC     &kp BSLH   &kp PSCRN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
