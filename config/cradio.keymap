@@ -72,7 +72,7 @@
         combo_rwin {
             timeout-ms = <320>;
             key-positions = <25 26>;
-            bindings = <&kp RGUI>;
+            bindings = <&kp LGUI>;
 	};
     };
     keymap {
