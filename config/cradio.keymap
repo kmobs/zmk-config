@@ -79,7 +79,7 @@
         combo_capsword {
             timeout-ms = <40>;
             key-positions = <20 29>;
-            bidnings =<&caps_word>; 
+            bindings =<&caps_word>; 
         };
     };
     keymap {
