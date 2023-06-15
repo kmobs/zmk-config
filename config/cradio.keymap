@@ -33,8 +33,8 @@
             label = "shift_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-	    flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+	    flavor = "hold-preferred";
+            tapping-term-ms = <170>;
             quick-tap-ms = <0>;
             retro-tap;
             bindings = <&kp>, <&kp>;
@@ -92,7 +92,7 @@
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
           &st LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &st RSHIFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &lt 2 TAB   &kp SPACE     &kp SPACE  &lt 3 ENTER
+                                            &lt 2 TAB &ht SHIFT SPACE &ht SHIFT SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
