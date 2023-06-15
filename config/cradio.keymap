@@ -72,12 +72,15 @@
             bindings = <&kp LGUI>;
         };
         combo_rwin {
-            timeout-ms = <320>;
+            timeout-ms = <30>;
             key-positions = <25 26>;
             bindings = <&kp LGUI>;
 	};
         combo_capsword {
-           
+            timeout-ms = <40>;
+            key-positions = <20 29>;
+            bidnings =<&caps_word>; 
+        };
     };
     keymap {
         compatible = "zmk,keymap";
