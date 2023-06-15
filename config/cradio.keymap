@@ -26,16 +26,14 @@
             tapping-term-ms = <175>;
             quick-tap-ms = <40>;
             global-quick-tap;
-            retro-tap;
             bindings = <&kp>, <&kp>;
         };
         st: shift_tap {
             label = "shift_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-	    flavor = "balanced";
+	        flavor = "balanced";
             tapping-term-ms = <120>;
-            retro-tap;
             bindings = <&kp>, <&kp>;
         };
     };
