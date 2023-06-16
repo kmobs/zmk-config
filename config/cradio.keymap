@@ -23,8 +23,8 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <160>;
-            quick-tap-ms = <30>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <25>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
