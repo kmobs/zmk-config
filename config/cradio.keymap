@@ -32,7 +32,7 @@
             label = "shift_tap";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-	        flavor = "balanced";
+            flavor = "balanced";
             tapping-term-ms = <120>;
             bindings = <&kp>, <&kp>;
         };
@@ -92,7 +92,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
-          &st LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &st RSHIFT FSLH
+          &st LSHIFT Z  &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RSHIFT FSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB &kp SPACE      &kp SPACE  &lt 3 ENTER
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
