@@ -74,6 +74,16 @@
             key-positions = <25 26>;
             bindings = <&kp LGUI>;
 	};
+        combo_lshift {
+            timeout-ms = <30>;
+            key-positions = <20 21>;
+            bindings = <&kp LSHIFT>;
+	};
+        combo_rshift {
+            timeout-ms = <30>;
+            key-positions = <28 29>;
+            bindings = <&kp RSHIFT>;
+	};
         combo_capsword {
             timeout-ms = <40>;
             key-positions = <20 29>;
