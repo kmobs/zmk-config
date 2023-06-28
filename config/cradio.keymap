@@ -114,10 +114,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  F       │  Q       │  W       │  E       │  R       │   │          │          │          │          │          │
-            &kp F       &kp Q      &kp W      &kp E    &kp R         &tog GAMING    &trans      &trans     &trans   &kp F14
+            &kp F       &kp Q      &kp W      &kp E    &kp R         &tog GAMING    &trans      &trans     &trans   &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Shift   │  A       │  S       │  D       │  G       │   │          │          │          │          │          │
-            &kp LSHIFT    &kp A      &kp S     &kp D   &kp G          &trans     &trans     &trans     &trans     &kp F15
+            &kp LSHIFT    &kp A      &kp S     &kp D   &kp G          &trans     &trans     &trans     &trans      &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  CTRL    │  Z        │  X       │  C       │  V      │   │    TAB   │   ESC    │          │          │
             &kp LCTRL  &kp Z      &kp X      &kp C      &mt B V        &kp TAB     &kp ESC   &trans     &trans      &kp RALT
