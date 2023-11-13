@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 // Home row mods macro
-#define HRML(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &kp k4
-#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RALT k4
+//#define HRML(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &kp k4
+//#define HRMR(k1,k2,k3,k4) &kp k1  &kp k2  &kp k3  &ht RALT k4
 
 #define DEFAULT 0
 #define GAMING 1
@@ -104,7 +104,7 @@
           &ht LCTRL Q    &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I   &kp O    &ht RCTRL P
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ ' "      │
-            HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,        SQT)
+            &kp A       &kp S       &kp D       &kp F     &kp G          &kp H      &kp J       &kp K     &kp L   &ht RALT SQT)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , <      │ . >      │ / ?      │
              &kp Z     &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT  &ht RSHIFT FSLH
