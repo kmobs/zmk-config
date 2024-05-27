@@ -54,11 +54,13 @@
             key-positions = <1 2>;
             bindings = <&kp ESC>;
             layers = <DEFAULT>;
+            require-prior-idle-ms = <125>;
         };
         combo_del {
             timeout-ms = <40>;
             key-positions = <6 7>;
             bindings = <&kp DEL>;
+            require-prior-idle-ms = <125>;
         };
         combo_bksp {
             timeout-ms = <40>;
@@ -71,12 +73,14 @@
             key-positions = <23 24>;
             bindings = <&kp LGUI>;
             layers = <0 2 3>;
+            require-prior-idle-ms = <125>;
         };
         combo_rwin {
             timeout-ms = <30>;
             require-prior-idle-ms = <125>;
             key-positions = <25 26>;
             bindings = <&kp LGUI>;
+            require-prior-idle-ms = <125>;
 	};
         combo_lshift {
             timeout-ms = <30>;
