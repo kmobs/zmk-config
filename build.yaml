@@ -14,7 +14,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: sweep_central_dongle
+    shield: sweep_central_dongle prospector_adapter
     artifact-name: sweep_central_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y

@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -23,5 +25,8 @@ manifest:
       revision: v2.6.4
       repo-path: sdk-nrfxlib
       path: nrfxlib
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
   self:
     path: config
