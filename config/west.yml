@@ -6,12 +6,12 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-    - name: carrefinho
-      url-base: https://github.com/carrefinho
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3
+      revision: main
       import: app/west.yml
     - name: zmk-feature-split-esb
       remote: badjeff
@@ -25,8 +25,8 @@ manifest:
       revision: v2.6.4
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: prospector-zmk-module
-      remote: carrefinho
+    - name: zmk-dongle-screen
+      remote: janpfischer
       revision: main
   self:
     path: config
