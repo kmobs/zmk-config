@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: kmobs
+      url-base: https://github.com/kmobs
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -26,7 +26,7 @@ manifest:
       repo-path: sdk-nrfxlib
       path: nrfxlib
     - name: zmk-dongle-screen
-      remote: janpfischer
+      remote: kmobs
       revision: main
   self:
     path: config
