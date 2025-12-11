@@ -33,7 +33,7 @@ This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) 
 
 ## Keymap
 
-![keyboard layout](./svg/cradio.svg)
+![keyboard layout](./keymap/cradio.svg)
 
 ## Credits
 
