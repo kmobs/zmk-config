@@ -31,6 +31,10 @@ This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) 
 | Left Peripheral | nice!nano v2 (nRF52840)        |
 | Right Peripheral | nice!nano v2 (nRF52840)       |
 
+## Keymap
+
+![keyboard layout](./keymap/cradio.svg)
+
 ## Credits
 
 - [Ferris Sweep](https://github.com/davidphilipbarr/Sweep) by David Barr.
