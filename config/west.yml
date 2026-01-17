@@ -27,9 +27,6 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk-dongle-screen
-      remote: kmobs
-      revision: upgrade-4.1
     - name: zmk-prospector               # <--- and these
       remote: kmobs                          # <---
       revision: newstatus 
