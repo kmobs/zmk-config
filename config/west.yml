@@ -30,5 +30,8 @@ manifest:
     - name: zmk-dongle-screen
       remote: kmobs
       revision: upgrade-4.1
+    - name: zmk-prospector               # <--- and these
+      remote: kmobs                          # <---
+      revision: newstatus 
   self:
     path: config
