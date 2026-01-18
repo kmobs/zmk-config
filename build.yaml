@@ -16,15 +16,17 @@ include:
   - board: xiao_ble
     shield: sweep_central_dongle prospector_adapter
     artifact-name: sweep_central_dongle
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart softdevice-controller
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: sweep_peripheral_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    snippet: softdevice-controller
     artifact-name: sweep_peripheral_left
   - board: nice_nano
     shield: sweep_peripheral_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    snippet: softdevice-controller
     artifact-name: sweep_peripheral_right
   - board: nice_nano
     shield: settings_reset
