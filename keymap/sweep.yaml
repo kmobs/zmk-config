@@ -1,0 +1,232 @@
+layout: {zmk_keyboard: sweep}
+layers:
+  Base:
+  - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: '''', h: '$$mdi:apple-keyboard-option$$'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: Left}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
+  - {t: ENTER, h: Right}
+  Gaming:
+  - F
+  - Q
+  - W
+  - E
+  - R
+  - {t: Gaming, h: '$$mdi:toggle-switch$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - B
+  - M
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - Alt Game
+  - $$mdi:keyboard-space$$
+  - {t: ▽, type: trans}
+  - ENTER
+  Left:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - '?'
+  - {type: held}
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Right:
+  - '~'
+  - <
+  - $$mdi:arrow-up$$
+  - '>'
+  - +
+  - ^
+  - (
+  - )
+  - ':'
+  - {t: PG UP, h: HOME}
+  - '`'
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - '-'
+  - '*'
+  - '['
+  - ']'
+  - ;
+  - {t: PG DN, h: END}
+  - '|'
+  - '='
+  - '{'
+  - '}'
+  - _
+  - '='
+  - '{'
+  - '}'
+  - \
+  - PSCRN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Config:
+  - $$mdi:restart$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - {t: '$$mdi:bluetooth-connect$$', s: '0', type: sym_sub_text}
+  - {t: Gaming, h: '$$mdi:toggle-switch$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:restart$$
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-connect$$', s: '1', type: sym_sub_text}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:flash$$', h: '$$mdi:new-box$$', s: '$$mdi:micro-sd$$', type: sym_by_sym}
+  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:bluetooth-settings$$', s: '$$mdi:close-thick$$', type: sym_sub_text}
+  - {t: '$$mdi:bluetooth-connect$$', s: '2', type: sym_sub_text}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  Alt Game:
+  - '4'
+  - '1'
+  - {t: ▽, type: trans}
+  - '2'
+  - '3'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - T
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {type: held}
+  - $$mdi:keyboard-tab$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [1, 2]
+  k: ESC
+  l: [Base]
+- p: [6, 7]
+  k: DEL
+- p: [16, 17]
+  k: BSPC
+- p: [23, 24]
+  k: $$mdi:apple-keyboard-command$$
+  l: [Base, Left, Right]
+- p: [25, 26]
+  k: $$mdi:apple-keyboard-command$$
+- p: [20, 21]
+  k: $$mdi:apple-keyboard-shift$$
+  l: [Base, Left, Right]
+- p: [28, 29]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [20, 29]
+  k: $$mdi:apple-keyboard-caps$$

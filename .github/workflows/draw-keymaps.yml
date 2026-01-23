@@ -23,5 +23,5 @@ jobs:
       json_path: "boards/*/*"              # path to physical layout json
       amend_commit: true                                                  # amend generated files to commit that produces them
       parse_args: ""                                                      # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: "-z ferris"                                                       # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      draw_args: "sweep:'-z ferris'"                                                       # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
       fail_on_error: true
