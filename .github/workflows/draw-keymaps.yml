@@ -10,13 +10,13 @@ on:
       # - 'config/*.json'
       - 'config/keymap_drawer.config.yaml'
       - '.github/workflows/draw-keymaps.yml'
-      - 'config/boards/*/*/*.keymap'
+      - 'boards/*/*/*.keymap'
 
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
-      keymap_patterns: "config/boards/*/*/*.keymap"                                  # path to the keymaps to parse
+      keymap_patterns: "boards/*/*/*.keymap"                                  # path to the keymaps to parse
       config_path: "config/keymap_drawer.config.yaml"                            # config file, ignored if not exists
       output_folder: "keymap"                                                # path to save produced SVGs                                             # branch to use
       amend_commit: true                                                  # amend generated files to commit that produces them
