@@ -10,16 +10,18 @@ on:
       # - 'config/*.json'
       - 'config/keymap_drawer.config.yaml'
       - '.github/workflows/draw-keymaps.yml'
-      - 'config/boards/*/*/*.keymap'
+      - 'boards/*/*/*.keymap'
+      - 'boards/*/*/*.dtsi'
 
 jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
-      keymap_patterns: "config/boards/*/*/*.keymap"                                  # path to the keymaps to parse
+      keymap_patterns: "boards/*/*/*.keymap"                                  # path to the keymaps to parse
       config_path: "config/keymap_drawer.config.yaml"                            # config file, ignored if not exists
-      output_folder: "keymap"                                                # path to save produced SVGs                                             # branch to use
+      output_folder: "keymap"                                                # path to save produced SVGs
+      json_path: "boards/*/*"              # path to physical layout json
       amend_commit: true                                                  # amend generated files to commit that produces them
       parse_args: ""                                                      # map of extra args to pass to `keymap parse`, e.g. "corne:'-l Def Lwr Rse' cradio:''"
-      draw_args: ""                                                       # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
+      draw_args: "sweep:'-z ferris'"                                                       # map of extra args to pass to `keymap draw`, e.g. "corne:'-k corne_rotated' cradio:'-k paroxysm'"
       fail_on_error: true
