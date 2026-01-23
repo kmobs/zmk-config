@@ -8,7 +8,7 @@ This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) 
 - ESB-based wireless split transport for reduced latency and reliable peripheral links.
 - Dedicated XIAO BLE dongle build target for USB host connectivity.
 - Battery reporting retained on peripherals with ESB transport.
-- Improved battery benefits of being in Dongle mode. 
+- Improved battery benefits of being in Dongle mode.
 - GitHub Actions matrix configured to compile dongle and peripheral firmware artifacts.
 
 ## Repository Layout
@@ -33,7 +33,7 @@ This repository contains a customized [ZMK](https://github.com/zmkfirmware/zmk) 
 
 ## Keymap
 
-![keyboard layout](./keymap/cradio.svg)
+![keyboard layout](./keymap/sweep.svg)
 
 ## Credits
 
