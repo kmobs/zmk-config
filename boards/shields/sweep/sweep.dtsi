@@ -7,9 +7,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "ferris.dtsi"
 
-&sweep_layout {
-  transform = <&default_transform>;
-};
 
 / {
 
