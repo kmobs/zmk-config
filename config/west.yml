@@ -4,13 +4,20 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kmobs
       url-base: https://github.com/kmobs
+        - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-prospector               # <--- and these
-      remote: kmobs                          # <---
+    - name: zmk-feature-softdevice-subrating
+      remote: carrefinho
+      repo-path: zmk-softdevice-controller
+      revision: main
+      import: config/west.yml
+    - name: zmk-prospector               
+      remote: kmobs                          
       revision: newstatus 
   self:
     path: config
