@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kmobs
       url-base: https://github.com/kmobs
-        - name: carrefinho
+    - name: carrefinho
       url-base: https://github.com/carrefinho
   projects:
     - name: zmk
