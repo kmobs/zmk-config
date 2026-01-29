@@ -16,7 +16,7 @@ manifest:
       revision: split-gatt-discovery-fixes
       import: app/west.yml
     - name: zmk-feature-softdevice-subrating
-      remote: kmobs
+      remote: carrefinho
       repo-path: zmk-softdevice-controller
       revision: main
       import: config/west.yml
