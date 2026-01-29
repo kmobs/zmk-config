@@ -21,7 +21,7 @@ manifest:
       revision: main
       import: config/west.yml
     - name: zmk-prospector               
-      remote: kmobs                          
-      revision: newstatus 
+      remote: carrefinho                         
+      revision: feat/new-status-screens
   self:
     path: config
