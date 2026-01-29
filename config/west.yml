@@ -7,14 +7,14 @@ manifest:
     - name: carrefinho
       url-base: https://github.com/carrefinho
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
  #   - name: zmk
- #     remote: kmobs
- #     revision: split-gatt-discovery-fixes
+ #     remote: zmkfirmware
+ #     revision: main
  #     import: app/west.yml
+    - name: zmk
+      remote: kmobs
+      revision: split-gatt-discovery-fixes
+      import: app/west.yml
     - name: zmk-feature-softdevice-subrating
       remote: kmobs
       repo-path: zmk-softdevice-controller
