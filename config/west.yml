@@ -20,8 +20,8 @@ manifest:
       repo-path: zmk-softdevice-controller
       revision: main
       import: config/west.yml
-    - name: prospector-zmk-module          
-      remote: carrefinho                         
-      revision: feat/new-status-screens
+    - name: zmk-prospector          
+      remote: kmobs                         
+      revision: fixoverflow
   self:
     path: config
