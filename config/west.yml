@@ -22,6 +22,6 @@ manifest:
       import: config/west.yml
     - name: zmk-prospector          
       remote: kmobs                         
-      revision: fixoverflow
+      revision: fast_sincos_fix
   self:
     path: config
