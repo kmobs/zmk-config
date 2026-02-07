@@ -20,8 +20,8 @@ manifest:
       repo-path: zmk-softdevice-controller
       revision: main
       import: config/west.yml
-    - name: zmk-prospector          
-      remote: kmobs                         
-      revision: lvasyncfix
+    - name: prospector-zmk-module          
+      remote: carrefinho                         
+      revision: feat/new-status-screens
   self:
     path: config
