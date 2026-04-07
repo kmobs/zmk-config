@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/nrfconnect
     - name: kmobs
       url-base: https://github.com/kmobs
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,8 +27,8 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk-prospector               # <--- and these
-      remote: kmobs                          # <---
-      revision: newstatus 
+    - name: prospector-zmk-module               # <--- and these
+      remote: carrefinho                          # <---
+      revision: feat/new-status-screens 
   self:
     path: config
