@@ -29,6 +29,6 @@ manifest:
       path: nrfxlib
     - name: zmk-prospector               # <--- and these
       remote: kmobs                          # <---
-      revision: newstatusblecent 
+      revision: blenewstatus 
   self:
     path: config
