@@ -27,8 +27,8 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: prospector-zmk-module               # <--- and these
-      remote: carrefinho                          # <---
-      revision: feat/new-status-screens 
+    - name: zmk-prospector               # <--- and these
+      remote: kmobs                          # <---
+      revision: newstatusblecent 
   self:
     path: config
