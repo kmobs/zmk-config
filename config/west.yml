@@ -27,8 +27,8 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk-prospector               # <--- and these
-      remote: kmobs                          # <---
-      revision: blenewstatus 
+#    - name: zmk-prospector               # <--- and these
+#      remote: kmobs                          # <---
+#      revision: blenewstatus 
   self:
     path: config
